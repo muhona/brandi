@@ -1,0 +1,540 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    font-size: 13px;
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 
+}
+
+p{
+    margin-bottom: 0;
+}
+dl, ol, ul {
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.navbar {
+	padding: 0rem 1rem;
+}
+.section_padding{
+   padding: 50px 0px; 
+}
+.content_padding{
+    padding: 30px 0px 20px 0px;
+}
+/**header**/
+.header_sention{
+    background: #0d2828;
+}
+.logo img{
+    margin: 15px 0px;
+}
+.logo p {
+	color: #787e7f;
+	display: inline;
+}
+.logo span{
+    color: #17526e;
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #e9e9ea;
+	padding-left: 30px;
+	padding-top: 23px;
+    transition: .3s;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #32b0ee;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	border-top: 2px solid #32b0ee;
+}
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.5);
+	 color: #787e7f;
+}
+/**end_header**/
+/**banner_sention**/
+.carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border-radius:50%;
+}
+.carousel-caption {
+	padding-top: 50px;
+	padding-bottom: 104px;
+	color: #fff;
+	text-align: center;
+}
+.carousel-indicators {
+	bottom: 57px;	
+}
+.carousel-caption h2 {
+	font-size: 48px;
+}
+.carousel-caption span{
+     color: #0edd95; 
+}
+
+.carousel-caption h1{
+    font-size: 62px;
+}
+.carousel-caption p{
+	font-size: 18px;
+	line-height: 0px;
+}
+.hi{
+    margin:0px 10px;
+}
+.carousel-caption i{
+    display: inline-block;
+}
+.carousel-caption i {
+	display: inline-block;
+	margin-top: 40px;
+	font-size: 18px;
+	margin-left: 15px;
+	color: white;
+    transition: .4s;
+}
+.carousel-caption i:hover{
+color: white;
+}
+/**end_banner_sention**/
+/**feature_sention**/
+.heading{
+    font-size: 28px;
+    font-weight: 800;
+}
+.feature_sention {
+    background: #f4f7f9;
+}
+.feature_text h4{
+    font-family: 20px;
+    font-weight: 600;
+    color :#062033;
+    margin-bottom: 22px;   
+}
+.feature_text p{
+    color: #bdc2c7;   
+}
+.feature_icon i {
+	color: #0eb493;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #0eb493;
+	border-radius: 50px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 37px;
+}
+.heading h2{
+    color: #0eb493;
+    font-weight: 800;
+    font-size: 28px;
+}
+.heading span {
+    position: relative;
+}
+.heading span::after {
+	content: "";
+	position: absolute;
+	width: 90px;
+	height: 1px;
+	top: 15px;
+	left: 38px;
+	background: #e6e8ea;
+}
+.heading span::before{
+	content: "";
+	position: absolute;
+	width: 90px;
+	height: 1px;
+	background: #e6e8ea;
+	top: 15px;
+	right: 42px;
+}
+.heading span>i {
+    color:#ccc;
+}
+/**end_feature_sention**/
+/**work_sention**/
+.heading p {
+	color: #bdc2c7;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 25px 0px;
+    text-align: center;
+}
+.controls li {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+	padding: 6px 20px;
+	margin-bottom: 40px;
+}
+.mixitup-control-active{
+    background: #0eb493;
+    color:#fff;
+    border-radius: 6px;
+}
+.project-list{
+    list-style: none;
+}
+.project-list li {
+    width: 25%;
+    float: left;
+    position: relative;
+     transition: .3s;
+ 
+}
+.project-list li img{
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;;
+    background: #22b798;
+    visibility: hidden;
+    top: 0;
+    left: 0; 
+}
+.project-list li:hover .overlay{
+    visibility: visible;
+    opacity: .9;
+}
+.project_details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition: .3s;
+}
+.project-list li:hover .project_details{
+    visibility: visible;
+    top: 30%;
+}
+.project_details a{
+    color: white;
+}
+
+.project_details  i {
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 50px;
+	line-height: 39px;
+	margin-bottom: 10px;
+}
+.project_details h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.project_details h6 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.Clear{
+    clear: both;
+}
+/**end_work_sention**/
+/**team_sention**/
+.owl-carousel {
+	margin-top: 40px;
+}
+.item h5{
+    color: #23b798;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.item h6{
+    color: #c5c7ca;
+    font-size: 13px; 
+}
+.item {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+.item  img{
+    width: 100%;
+    height: 300px;
+}
+.overlay_team {
+	position: absolute;
+	width: 100%;
+    height: 300px;
+	background: #19b797;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    visibility: hidden;
+    transition: .3s;
+    opacity: .9;
+}
+.item:hover .overlay_team{
+   visibility: visible;
+    
+}
+.team_txt{
+   position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition: .3s;
+}
+.item:hover .team_txt{
+   visibility: visible;
+    top: 25px;   
+}
+.team_txt strong {
+	font-size: 16px;
+	font-weight: 700;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	display: block;
+}
+.team_txt p {
+	font-size: 16px;
+	padding-left: 0px;
+}
+.team_txt i {
+	background: #0c7b65;
+	color: white;
+	width: 42px;
+	height: 42px;
+	text-align: center;
+	line-height: 41px;
+	margin-top: 40px;
+	margin-left: 8px;
+}
+/**team_sention**/
+/**counter_sention**/
+.counter_sention{
+     background:url('images/counter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.counter_sention:after{
+    content: "";
+    position: absolute;
+    background: #142638;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    z-index: -1;
+}
+.counter_box i {
+	width: 60px;
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 50px;
+	line-height: 58px;
+	font-size: 20px;
+	margin: 10px 0px 30px;
+}
+.counter_box p{
+    font-size: 18px;
+}
+.hi i{
+    color: white !important;
+}
+/**counter_sention**/
+/**discus_sention**/
+.discus_left h2 {
+	font-size: 22px;
+	color: #062033;
+	margin: 30px 0px;
+}
+address{
+    color :#a5a9ae;   
+}
+.discus_form h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 30px 0px;
+}
+.form-control {
+    border-bottom: 1px solid #ccc!important;
+    border: 0px;
+    margin-bottom: 30px;   
+}
+.discus_form input{
+    font-size: 15px;
+     color :#a5a9ae;
+}
+textarea{
+    width: 100%;
+    border: none;
+   border-bottom: 1px solid #ccc!important;
+   height: 35px;
+    color :#a5a9ae;
+    font-size: 15px;
+}
+.msg {
+	margin-top: 30px;
+}
+.msg i{
+    color :#0eb493;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.msg p{
+    color :#0eb493;
+    font-size: 16px;
+    display: inline-block;
+    color :#000;
+}
+.discus_icon {
+	margin-top: 35px;
+}
+.discus_icon ul li {
+	color:#cdd2d6; 
+}
+.discus_icon ul li {
+	color: #cdd2d6;
+	font-size: 20px;
+	margin-top: 5px;
+}
+/**end_discus_sention**/
+/**footer_sention**/
+.footer_sention{
+    background: #1ea78d;
+    border-top: 5px solid #062033;
+}
+.footer_box img {
+	margin-bottom: 30px;
+}
+.footer_box h6 {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.box{
+	border: 1px solid white;
+	margin-top: 46px;
+	display: block;
+	width: 100%;
+	height: 40px;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 37px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.left h6 {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.right {
+	margin-top: 45px;
+}
+.line p {
+	margin: 30px 0px 0px 9px;
+}
+.line i {
+	color: #000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.line h6 {
+	margin: 0px 0px 0px 9px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.footer_box span{
+    color: black;
+    display: inline-block;
+}
+.footer_box h5 {
+	font-size: 13px;
+	margin-top: ;
+	margin: 40px 0px 0px 9px;
+	color: black;
+}
+/**end_footer_sention**/
+@media only screen and (max-width: 600px) {
+    .feature_text {
+	margin-bottom: 40px;
+}
+.feature_icon i {
+	margin-bottom: 10px;
+}
+.feature_text p {
+	text-align: justify;
+}
+.heading p {
+	margin: 0px;
+	text-align: justify;
+	display: block;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+    .controls li {
+	margin-bottom: 12px;
+}
+.discus_icon {
+	 margin-top: 0px;
+}
+    .discus_left h2 {
+	font-size: 16px;
+}
+.right {
+	margin-top: 0px;
+}
+  .counter_box {
+	margin-top: 70px;
+}
+.counter_box i {
+	margin: 0px 0px 15px;
+}
+.counter_padding {
+	padding: 0px 0px 20px 0px;
+}
+.logo p {
+	display: none;
+}
+.logo span {
+	
+	display: none;
+}
+.team_txt strong {
+	padding-left: 0px;
+	padding-bottom: 31px;
+	
+}
+    .heading p {
+
+    text-align: justify;
+}
+}
+
